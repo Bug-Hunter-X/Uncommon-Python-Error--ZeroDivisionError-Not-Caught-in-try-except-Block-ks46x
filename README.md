@@ -1,0 +1,3 @@
+This repository demonstrates a subtle and uncommon error in Python that can easily be missed by developers.  The code attempts to handle TypeErrors using a try-except block. However, it neglects to handle the ZeroDivisionError exception, which can lead to unexpected program termination.
+
+The bug.py file shows the erroneous code.  The bugSolution.py file presents the corrected version of this code, demonstrating how to handle both TypeError and ZeroDivisionError exceptions effectively.
